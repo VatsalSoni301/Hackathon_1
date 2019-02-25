@@ -1,0 +1,29 @@
+sudo docker save imageName > imageName.tar
+
+sudo docker load < imageName.tar
+
+sudo docker build -t imageName dirName(you want to build)
+
+sudo docker images
+
+sudo docker rmi imagename
+
+sudo docker rm containerId
+
+sudo docker run imageName
+
+sudo docker run -it imageName bash (For interactive run)
+
+sudo docker ps -a
+
+sudo docker ps -l
+
+sudo docker ps
+
+sudo docker login (login to dockerHub for downloading images)
+
+sudo docker pull imageName
+
+sudo docker start containerId
+
+sudo docker stop containerId

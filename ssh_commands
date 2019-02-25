@@ -1,0 +1,9 @@
+sudo systemctl stop ssh
+
+sudo systemctl start ssh
+
+sudo systemctl status ssh
+
+ssh vatsal@10.42.0.238
+
+sshpass -p "password" scp filename vatsal@10.42.0.238:filename
