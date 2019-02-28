@@ -1,4 +1,7 @@
 # Handwritten Digit Recognition Tensorflow App
+
+## With Docker
+
 ## How to run
 
 * On central server side
