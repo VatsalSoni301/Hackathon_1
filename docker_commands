@@ -27,3 +27,5 @@ sudo docker pull imageName
 sudo docker start containerId
 
 sudo docker stop containerId
+
+sudo docker stop $(sudo docker ps -aq) (Stop all docker container)
