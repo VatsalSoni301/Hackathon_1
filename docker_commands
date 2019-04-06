@@ -1,6 +1,12 @@
+sudo docker exec -it container_name /bin/bash  (interactive docker)
+
 sudo docker save imageName > imageName.tar
 
 sudo docker load < imageName.tar
+
+sudo docker build Dockerfile
+
+sudo docker build . -f mydockerfilename.Dockerfile
 
 sudo docker build -t imageName dirName(you want to build)
 
