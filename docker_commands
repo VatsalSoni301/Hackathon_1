@@ -1,6 +1,10 @@
+sudo docker rmi $(sudo docker images -f "dangling=true" -q) (Remove all images with none name and tag)
+
 sudo docker exec -it container_name /bin/bash  (interactive docker)
 
-sudo docker run -p system_port:docker_port -v systemdir:dockerdir imageName
+sudo docker run -p system_port:docker_port -v systemdir:dockerdir imageName (-v for volume share)
+
+sudo docker run -t -p system_port:docker_port -v systemdir:dockerdir imageName (print visible for -t)
 
 sudo docker save imageName > imageName.tar
 
